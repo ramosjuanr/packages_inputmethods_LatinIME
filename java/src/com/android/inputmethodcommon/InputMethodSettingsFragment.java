@@ -33,6 +33,7 @@ public abstract class InputMethodSettingsFragment extends PreferenceFragment
         super.onCreate(savedInstanceState);
         final Context context = getActivity();
         setPreferenceScreen(getPreferenceManager().createPreferenceScreen(context));
+        mSettings.setSpawnAsNewActivity(false);
         mSettings.init(context, getPreferenceScreen());
     }
 
