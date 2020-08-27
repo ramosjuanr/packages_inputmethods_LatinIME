@@ -26,4 +26,7 @@ language among those that use the Latin alphabet. This keyboard is laid out in t
 disposition rather than other common dispositions for Latin languages. [CHAR LIMIT=25] -->
 
     <string name="keyboard_theme_follow_system">Follow system settings</string>
+
+    <!-- Title of the settings for setting keyboard height -->
+    <string name="prefs_keyboard_height_scale">Keyboard height scale</string>
 </resources>
